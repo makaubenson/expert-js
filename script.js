@@ -20,20 +20,22 @@ let markHigherBMI = markBMI > johnBMI
 // console.log(markBMI, johnBMI, markHigherBMI)
 // Js uses '//' for comments
 
-
 /* MULTI LINE COMMENTS
 johnBMI = johnWeight / johnHeight ** 2
 johnBMI2 = johnWeight / (johnHeight * johnHeight)
 console.log(johnBMI)
 console.log(johnBMI2)*/
 
-
-
 //Boolean Data Type
 let jsIsFun = true
-console.log(jsIsFun)
+// console.log(jsIsFun)
 // typeof function
-console.log(typeof true)
-console.log(typeof jsIsFun)
-console.log(typeof 23)
-console.log(typeof 'Benson')
+// console.log(typeof true)
+// console.log(typeof jsIsFun)
+// console.log(typeof 23)
+// console.log(typeof 'Benson')
+
+//Undefined Data type
+let year;
+console.log(year)
+console.log(typeof year);
