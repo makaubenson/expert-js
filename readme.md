@@ -5,3 +5,15 @@
 -let `variableName` = value(int or string)
 ### Declaring variable that wont change use CAPS
 - e.g `let PI =3.1415`
+
+###  Javascript Datatypes
+#### 7 Primitive Datatypes
+- Number : Floating point numbers.
+- String : Always in quotes.
+- Boolean : True or false.
+- Undefined : value taken by a variable that is not yet defined ('Empty value') e.g `let children;`.
+- Null : Also means 'empty value'.
+- Symbol : defines value that is unique and cannot be changed.
+- Bigint : Large integers that the Number type cannot hold
+- `Javascript has dynamic typing: We do not have to manually define the datatype of the value stored in a variable, instead, data types are determined automatically.`
+#### 7 Primitive Datatypes
