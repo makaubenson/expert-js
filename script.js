@@ -6,16 +6,16 @@
 // console.log(firstName);//printing a variable in the console
 
 //Coding challenge 1
-markHeight = 1.69;
-markWeight = 78;
+let markHeight = 1.69;
+let markWeight = 78;
 //ccc
-johnHeight= 1.95;
-johnWeight = 92;
+let johnHeight= 1.95;
+let johnWeight = 92;
 
 //BMI = mass / height ** 2
-markBMI = markWeight / markHeight ** 2
+let markBMI = markWeight / markHeight ** 2
 //BMI = mass / height ** 2
-johnBMI = johnWeight / johnHeight ** 2
+let johnBMI = johnWeight / johnHeight ** 2
 let markHigherBMI = markBMI > johnBMI
 // console.log(markBMI, johnBMI, markHigherBMI)
 // Js uses '//' for comments
