@@ -20,4 +20,4 @@
 ### Ways of declaring variables
 - `let` is used to declare variables that can change later.
 - `const`  used for variables that will not change in future. You cannot declare empty variables using variables
-- `var` -old way of defining variables prior to ES6. Workd the same as `let` keyword.
+- `var` -old way of defining variables prior to ES6. Works the same as `let` keyword.
