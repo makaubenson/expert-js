@@ -52,3 +52,8 @@ const YOB = 2001;
 
 var job = 'programmer';
 job= 'CEO';
+
+//MATHS OPERATORS
+const ageJonas = 2037-1991;
+const ageSarah = 2037-2018;
+console.log(ageJonas, ageSarah);
