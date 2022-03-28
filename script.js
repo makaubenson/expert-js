@@ -54,6 +54,7 @@ var job = 'programmer';
 job= 'CEO';
 
 //MATHS OPERATORS
-const ageJonas = 2037-1991;
-const ageSarah = 2037-2018;
+const now = 2037;
+const ageJonas = now-1991;
+const ageSarah = now-2018;
 console.log(ageJonas, ageSarah);
