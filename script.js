@@ -39,3 +39,6 @@ let jsIsFun = true
 let year;
 console.log(year)
 console.log(typeof year);
+
+//Js BUG
+console.log(typeof null);//prints object. Its regarded a bug and its however not corrected for legacy reasons
