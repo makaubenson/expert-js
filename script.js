@@ -50,3 +50,8 @@ console.log(markHigherBMI)*/
 //Boolean Data Type
 let jsIsFun = true
 console.log(jsIsFun)
+// typeof function
+console.log(typeof true)
+console.log(typeof jsIsFun)
+console.log(typeof 23)
+console.log(typeof 'Benson')
