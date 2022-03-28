@@ -17,4 +17,5 @@
 - Bigint : Large integers that the Number type cannot hold
 - `Javascript has dynamic typing: We do not have to manually define the datatype of the value stored in a variable, instead, data types are determined automatically.`
 - `Strings are printed in console in white color`
-
+### Ways of declaring variables
+- `let` is used to declare variables that can change later.
