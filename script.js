@@ -32,3 +32,17 @@ console.log(johnBMI2)
 console.log(markHigherBMI)
 
 // Js uses '//' for comments
+
+
+/*
+johnBMI = johnWeight / johnHeight ** 2
+johnBMI2 = johnWeight / (johnHeight * johnHeight)
+console.log(johnBMI)
+console.log(johnBMI2)
+ let markHigherBMI = '';
+ if(markBMI >johnBMI ) {
+     markHigherBMI = true
+ }else{
+     markHigherBMI = false
+ }
+console.log(markHigherBMI)*/
