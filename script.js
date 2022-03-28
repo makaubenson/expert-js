@@ -49,3 +49,6 @@ age = 31; //mutating variable
 
 const YOB = 2001;
 // YOB = 2000// prints and error. 
+
+var job = 'programmer';
+job= 'CEO';

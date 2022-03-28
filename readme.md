@@ -19,4 +19,5 @@
 - `Strings are printed in console in white color`
 ### Ways of declaring variables
 - `let` is used to declare variables that can change later.
-- `const` variable is used for variables that will not change in future. You cannot declare empty variables using variables
+- `const`  used for variables that will not change in future. You cannot declare empty variables using variables
+- `var` -old way of defining variables prior to ES6. Workd the same as `let` keyword.
