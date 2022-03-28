@@ -29,6 +29,6 @@ console.log(johnBMI2)
  }else{
      markHigherBMI = false
  }
+console.log(markHigherBMI)
 
-
-
+// Js uses '//' for comments
