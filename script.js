@@ -46,3 +46,6 @@ let year;
 //Ways of declaring variables
 let age = 30; //let is used when varible value is likely to change
 age = 31; //mutating variable
+
+const YOB = 2001;
+// YOB = 2000// prints and error. 

@@ -19,3 +19,4 @@
 - `Strings are printed in console in white color`
 ### Ways of declaring variables
 - `let` is used to declare variables that can change later.
+- `const` variable is used for variables that will not change in future. You cannot declare empty variables using variables
