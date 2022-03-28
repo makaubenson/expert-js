@@ -34,7 +34,7 @@ console.log(markHigherBMI)
 // Js uses '//' for comments
 
 
-/*
+/* MULTI LINE COMMENTS
 johnBMI = johnWeight / johnHeight ** 2
 johnBMI2 = johnWeight / (johnHeight * johnHeight)
 console.log(johnBMI)
@@ -46,3 +46,7 @@ console.log(johnBMI2)
      markHigherBMI = false
  }
 console.log(markHigherBMI)*/
+
+//Boolean Data Type
+let jsIsFun = true
+console.log(jsIsFun)

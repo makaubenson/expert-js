@@ -16,4 +16,5 @@
 - Symbol : defines value that is unique and cannot be changed.
 - Bigint : Large integers that the Number type cannot hold
 - `Javascript has dynamic typing: We do not have to manually define the datatype of the value stored in a variable, instead, data types are determined automatically.`
-#### 7 Primitive Datatypes
+- `Strings are printed in console in white color`
+
