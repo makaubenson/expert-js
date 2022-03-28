@@ -8,29 +8,16 @@
 //Coding challenge 1
 markHeight = 1.69;
 markWeight = 78;
-
+//ccc
 johnHeight= 1.95;
 johnWeight = 92;
 
 //BMI = mass / height ** 2
 markBMI = markWeight / markHeight ** 2
-markBMI2 = markWeight / (markHeight * markHeight)
-console.log(markBMI)
-console.log(markBMI2)
-
 //BMI = mass / height ** 2
 johnBMI = johnWeight / johnHeight ** 2
-johnBMI2 = johnWeight / (johnHeight * johnHeight)
-console.log(johnBMI)
-console.log(johnBMI2)
- let markHigherBMI = '';
- if(markBMI >johnBMI ) {
-     markHigherBMI = true
- }else{
-     markHigherBMI = false
- }
-console.log(markHigherBMI)
-
+let markHigherBMI = markBMI > johnBMI
+// console.log(markBMI, johnBMI, markHigherBMI)
 // Js uses '//' for comments
 
 
@@ -38,14 +25,9 @@ console.log(markHigherBMI)
 johnBMI = johnWeight / johnHeight ** 2
 johnBMI2 = johnWeight / (johnHeight * johnHeight)
 console.log(johnBMI)
-console.log(johnBMI2)
- let markHigherBMI = '';
- if(markBMI >johnBMI ) {
-     markHigherBMI = true
- }else{
-     markHigherBMI = false
- }
-console.log(markHigherBMI)*/
+console.log(johnBMI2)*/
+
+
 
 //Boolean Data Type
 let jsIsFun = true
