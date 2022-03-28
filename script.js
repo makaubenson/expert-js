@@ -62,3 +62,7 @@ console.log(ageJonas, ageSarah);
 //Multiply
 console.log(ageJonas*2, ageJonas/10, 2 ** 3);
 //2 ** 3 means 2 to the power of 3 = 2*2*2
+
+const firstName = "Benson";
+const lastName = "Makau";
+console.log(firstName + ' '+ lastName);
