@@ -76,8 +76,11 @@ x--;// x=x-1
 //console.log(x);// 25
 
 //Comparison Operators
-console.log(ageJonas > ageSarah);//prints either true or false
-console.log(ageJonas >= 18);//prints either true or false
+//console.log(ageJonas > ageSarah);//prints either true or false
+//console.log(ageJonas >= 18);//prints either true or false
 /*
 >,<,>=,<=
 */
+const isFullAge = ageSarah >=18;
+// console.log(isFullAge);
+// console.log(now-2000 > now -2018);
