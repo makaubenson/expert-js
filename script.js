@@ -90,4 +90,4 @@ w=y=25-10-5;//w=y=10   w=10 and y =10
 //console.log(w,y);
 
 const averageAge = (ageJonas+ ageSarah)/2;
-console.log(ageJonas, ageSarah, 'The average is '+averageAge);
+//console.log(ageJonas, ageSarah, 'The average is '+averageAge);
