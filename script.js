@@ -73,4 +73,11 @@ x+=10;// x= x+10
 x*=4;//x=x*4
 x++;//x= x+1
 x--;// x=x-1
-console.log(x);// 25
+//console.log(x);// 25
+
+//Comparison Operators
+console.log(ageJonas > ageSarah);//prints either true or false
+console.log(ageJonas >= 18);//prints either true or false
+/*
+>,<,>=,<=
+*/
