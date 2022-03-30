@@ -50,8 +50,8 @@ age = 31; //mutating variable
 const YOB = 2001;
 // YOB = 2000// prints and error. 
 
-var job = 'programmer';
-job= 'CEO';
+// var job = 'programmer';
+// job= 'CEO';
 
 //MATHS OPERATORS
 const now = 2037;
@@ -91,3 +91,11 @@ w=y=25-10-5;//w=y=10   w=10 and y =10
 
 const averageAge = (ageJonas+ ageSarah)/2;
 //console.log(ageJonas, ageSarah, 'The average is '+averageAge);
+
+//Strings and Template Literals
+const firstName = 'Benson';
+const job = 'teacher';
+const birthYear = 1991;
+const currentYear = 2037;
+const benson = "I'm "+ firstName +", a "+ (currentYear- birthYear) +" year old " +job;
+console.log(benson);
