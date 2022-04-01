@@ -155,7 +155,7 @@ if(markBMI > johnBMI){
 }else{
     console.log(`John's BMI (${johnBMI}) is greater than Marks's BMI (${markBMI})`);
 }
-*/
+
 
 //Type Conversion
 const inputYear = '1991';
@@ -190,3 +190,6 @@ d= d+1;// 11 ='11' + '1'
 console.log(d);// output 111
 console.log(2+3+4+ '5');// 95 => 2+3+4 = 9 then 9 + '5 ='95'
 console.log('10'-'4'-'3'-2+'5');// '10'-'4'-'3' = 3, '10'-'4'-'3' -2 = 1, '10'-'4'-'3'-2+'5' => 1 +'5' = 15
+*/
+
+// Truthy and Falsy Values

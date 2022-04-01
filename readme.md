@@ -56,3 +56,12 @@
 - Happens whenever an operator is dealing with two values of different types.
 - `console.log("I am "+ 23 + "years old");` 'I am' is a string, 23 is a number and 'years old is a string'.
 - js uses coercion to convert number to string.
+
+### Truthy and Falsy Values
+- `falsy values` are values that are not exactly false but will become false when we try to convert them to boolean.
+##### 5 falsy values
+- 0
+- empty string ( '' )
+- undefined
+- null
+- NaN
