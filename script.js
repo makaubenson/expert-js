@@ -162,3 +162,7 @@ const inputYear = '1991';
 console.log(inputYear + 18);
 const birthYear = Number(inputYear);//converting string to integer(number)
 console.log(birthYear + 18);
+
+// Converting strings which dont contain a number into a number
+
+console.log(Number('Benson'));//Output = NaN which means not a number
