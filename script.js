@@ -4,7 +4,7 @@
 //Declaring a Variable
 // let firstName = "Benson"
 // console.log(firstName);//printing a variable in the console
-
+/*
 //Coding challenge 1
 let markHeight = 1.69;
 let markWeight = 78;
@@ -20,11 +20,11 @@ let markHigherBMI = markBMI > johnBMI
 // console.log(markBMI, johnBMI, markHigherBMI)
 // Js uses '//' for comments
 
-/* MULTI LINE COMMENTS
+ MULTI LINE COMMENTS
 johnBMI = johnWeight / johnHeight ** 2
 johnBMI2 = johnWeight / (johnHeight * johnHeight)
 console.log(johnBMI)
-console.log(johnBMI2)*/
+console.log(johnBMI2)
 
 //Boolean Data Type
 let jsIsFun = true
@@ -45,7 +45,7 @@ let year;
 
 //Ways of declaring variables
 let age = 30; //let is used when varible value is likely to change
-age = 31; //mutating variable
+//age = 31; //mutating variable
 
 const YOB = 2001;
 // YOB = 2000// prints and error. 
@@ -80,7 +80,7 @@ x--;// x=x-1
 //console.log(ageJonas >= 18);//prints either true or false
 /*
 >,<,>=,<=
-*/
+
 const isFullAge = ageSarah >=18;
 // console.log(isFullAge);
 // console.log(now-2000 > now -2018);
@@ -98,19 +98,29 @@ const job = 'teacher';
 const birthYear = 1991;
 const currentYear = 2037;
 const benson = "I'm "+ firstName +", a "+ (currentYear- birthYear) +" year old " +job;
-console.log(benson);
+// console.log(benson);
 
 
 //Template Literals
 const bensonNew = `I'm ${firstName}, a ${currentYear- birthYear} years old ${job}`;
-console.log(bensonNew);
+// console.log(bensonNew);
 //Using backticks
-console.log(`I love javascript`);
+// console.log(`I love javascript`);
 
 // Creating multiline strings without ES6
-console.log('This is a \n\ string with \n\ multiple lines');
+// console.log('This is a \n\ string with \n\ multiple lines');
 
 //Creating multiline strings with backticks
-console.log(`This is a 
-string with 
-multiple lines`);
+// console.log(`This is a 
+// string with 
+// multiple lines`);
+*/
+//If Else Usage
+const age = 15;
+const isOldEnough = age >= 18;//boolean
+
+if(isOldEnough){
+    console.log('Benson can have a driving license.🚕');
+}else{
+    console.log('Benson is still a kid, he cant have a driving license.');
+}
