@@ -104,3 +104,5 @@ console.log(benson);
 //Template Literals
 const bensonNew = `I'm ${firstName}, a ${currentYear- birthYear} years old ${job}`;
 console.log(bensonNew);
+
+console.log(`I love javascript`);
