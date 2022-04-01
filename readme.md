@@ -21,3 +21,17 @@
 - `let` is used to declare variables that can change later.
 - `const`  used for variables that will not change in future. You cannot declare empty variables using variables
 - `var` -old way of defining variables prior to ES6. Works the same as `let` keyword.
+### Template Literals
+- const bensonNew = `I'm ${firstName}, a ${currentYear- birthYear} years old ${job}`;
+- `console.log(bensonNew);`
+
+### Backticks
+-console.log(`I love javascript`);
+### Creating multiline strings without ES6
+`console.log('This is a \n\ string with \n\ multiple lines');`
+
+### Creating multiline strings with backticks
+- `console.log(`This is a 
+  string with 
+  multiple lines`);`
+

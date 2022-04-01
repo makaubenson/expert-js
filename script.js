@@ -104,5 +104,13 @@ console.log(benson);
 //Template Literals
 const bensonNew = `I'm ${firstName}, a ${currentYear- birthYear} years old ${job}`;
 console.log(bensonNew);
-
+//Using backticks
 console.log(`I love javascript`);
+
+// Creating multiline strings without ES6
+console.log('This is a \n\ string with \n\ multiple lines');
+
+//Creating multiline strings with backticks
+console.log(`This is a 
+string with 
+multiple lines`);
