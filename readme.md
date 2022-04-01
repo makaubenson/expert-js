@@ -73,4 +73,7 @@ if(money){
 }{
     console.log(`You should get a job`);
 }`
-- The code above outputs "You should get a job". This is because,money is assigned 0 which is a false value. Thus the else block is excecuted. 
+- The code above outputs "You should get a job". This is       because,money is assigned 0 which is a false value. Thus the else block is excecuted. 
+### Logical Operators
+- `===` is called Strict Operator because it doesnt do type coersion. 
+- `==` - Loose Equality Operators. It does type coersion. 

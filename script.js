@@ -190,7 +190,7 @@ d= d+1;// 11 ='11' + '1'
 console.log(d);// output 111
 console.log(2+3+4+ '5');// 95 => 2+3+4 = 9 then 9 + '5 ='95'
 console.log('10'-'4'-'3'-2+'5');// '10'-'4'-'3' = 3, '10'-'4'-'3' -2 = 1, '10'-'4'-'3'-2+'5' => 1 +'5' = 15
-*/
+
 
 // Truthy and Falsy Values
 //Falsy Values
@@ -206,9 +206,20 @@ if(money){
 }{
     console.log(`You should get a job`);
 }
-let height = 0;
+let height;//height is undefined
 if(height){
     console.log('Height is defined');
 }else{
     console.log('Height is undefined');
 }
+*/
+//Logical Operators
+const age = 18;
+// if(age === 18) console.log('You just became an adult');
+if(age === 18 ) {//type coersion is not done
+    console.log('You just became an adult (strict)');
+}
+if(age == 18 ) {//type coersion is done
+    console.log('You just became an adult (loose)');
+}
+
