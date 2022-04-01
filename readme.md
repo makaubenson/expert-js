@@ -48,3 +48,6 @@
 - `Type Coercion` is when javascript automatically converts types for us behind scenes.(Happens implicitily)
 
 - `console.log(typeof NaN);//Output is Number`  NaN means an invalid number thus its value is somehow still a number.
+
+### Note!!!
+- Javascript can only convert to 3 types `string` , `number` and `boolean`
