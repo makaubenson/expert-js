@@ -125,3 +125,12 @@ if(isOldEnough){
     const yearsLeft = 18-age;
     console.log(`Benson is still a kid,he will have to wait for ${yearsLeft} years to earn one.`);
 }
+
+let birthYear = 2001;
+let century;
+if(birthYear <= 2000){
+  century = 20 +'th';
+}else{
+   century = 21 +'st';
+}
+console.log(`This person was born in the ${century} century`);

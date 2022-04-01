@@ -35,3 +35,10 @@
   string with 
   multiple lines`);`
 
+### If Else Control Structure
+- The control structure is:
+-   ` if(condition){
+    //code to be executed if condition is true 
+    }else{
+        //code to be executed if condition is not true 
+    } `
