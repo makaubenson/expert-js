@@ -51,3 +51,8 @@
 
 ### Note!!!
 - Javascript can only convert to 3 types `string` , `number` and `boolean`
+
+### Type Coercion
+- Happens whenever an operator is dealing with two values of different types.
+- `console.log("I am "+ 23 + "years old");` 'I am' is a string, 23 is a number and 'years old is a string'.
+- js uses coercion to convert number to string.

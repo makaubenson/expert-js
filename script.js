@@ -1,4 +1,4 @@
-//Printing values to console
+//Pridting values to console
 // console.log(40+8+23-10)
 
 //Declaring a Variable
@@ -157,7 +157,7 @@ if(markBMI > johnBMI){
 }
 */
 
-//Type Conversion and Coercion
+//Type Conversion
 const inputYear = '1991';
 console.log(inputYear + 18);
 const birthYear = Number(inputYear);//converting string to integer(number)
@@ -173,3 +173,20 @@ console.log(typeof NaN);//Output is Number
 const num = 23;
 numString = String(num);
 console.log(num, numString );
+
+//Type Coercion
+console.log("I am " + 23 + " years old");// + coerces number to string
+console.log('23' - '10' - 3);// - coerces string to number
+console.log('23' - '10' + 3);// output = 23103
+console.log('23' * '2');// output = 46, converts strings to numbers
+console.log('23' / '2');// output = 11.5, converts strings to numbers
+
+let n = '1' + 1;//11
+n= n-1;// 11 =11-1
+console.log(n);// output 10
+
+let d = '1' + 1;//11
+d= d+1;// 11 ='11' + '1'
+console.log(d);// output 111
+console.log(2+3+4+ '5');// 95 => 2+3+4 = 9 then 9 + '5 ='95'
+console.log('10'-'4'-'3'-2+'5');// '10'-'4'-'3' = 3, '10'-'4'-'3' -2 = 1, '10'-'4'-'3'-2+'5' => 1 +'5' = 15
