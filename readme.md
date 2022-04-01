@@ -78,4 +78,6 @@ if(money){
 - `===` is called Strict Operator because it doesnt do type coersion. 
 - `==` - Loose Equality Operators. It does type coersion. 
 ### Prompt
-- `const favorite = prompt("What's your favorite number ?")`
+- `const favorite = prompt("What's your favorite number ?");`
+### Is Not Equal To Strict Operator (!==)
+- `if(favorite !== 23) console.log('Why not 23?');`
