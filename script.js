@@ -246,8 +246,26 @@ if(favorite !== 23) console.log('Why not 23?');
 //Boolean Logic
 //Uses AND, OR & NOT
 const hasDriversLicense = true;//A
-const hasGoodVision = false;//B
+const hasGoodVision = true;//B
+const isTired = false;//C
+// console.log(hasDriversLicense && hasGoodVision);//AND
+// console.log(hasDriversLicense || hasGoodVision);//OR
+// console.log(!hasDriversLicense);//NOT
 
-console.log(hasDriversLicense && hasGoodVision);//AND
-console.log(hasDriversLicense || hasGoodVision);//OR
-console.log(!hasDriversLicense);//NOT
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+//logic 1
+// if(shouldDrive){
+//     console.log('Sarah is able to drive');
+// }else{
+//     console.log('someone else should drive');
+// }
+
+//logic 2
+if(hasDriversLicense && hasGoodVision && !isTired){
+    console.log('Sarah is able to drive');
+}else{
+    console.log('someone else should drive');
+}
+
+// console.log(hasDriversLicense && hasGoodVision && !isTired);
