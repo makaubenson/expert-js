@@ -122,5 +122,6 @@ const isOldEnough = age >= 18;//boolean
 if(isOldEnough){
     console.log('Benson can have a driving license.🚕');
 }else{
-    console.log('Benson is still a kid, he cant have a driving license.');
+    const yearsLeft = 18-age;
+    console.log(`Benson is still a kid,he will have to wait for ${yearsLeft} years to earn one.`);
 }
