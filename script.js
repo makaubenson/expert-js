@@ -212,7 +212,7 @@ if(height){
 }else{
     console.log('Height is undefined');
 }
-*/
+
 //Logical Operators
 const age = 18;
 // if(age === 18) console.log('You just became an adult');
@@ -241,3 +241,13 @@ if(favorite == 23){
 
 //Is Not Equal To Strict Operator (!==)
 if(favorite !== 23) console.log('Why not 23?');
+*/
+
+//Boolean Logic
+//Uses AND, OR & NOT
+const hasDriversLicense = true;//A
+const hasGoodVision = false;//B
+
+console.log(hasDriversLicense && hasGoodVision);//AND
+console.log(hasDriversLicense || hasGoodVision);//OR
+console.log(!hasDriversLicense);//NOT
