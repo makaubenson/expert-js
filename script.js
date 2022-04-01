@@ -134,7 +134,7 @@ if(birthYear <= 2000){
    century = 21 +'st';
 }
 console.log(`This person was born in the ${century} century`);
-*/
+
 
 // If Else Challenge
 
@@ -155,3 +155,8 @@ if(markBMI > johnBMI){
 }else{
     console.log(`John's BMI (${johnBMI}) is greater than Marks's BMI (${markBMI})`);
 }
+*/
+
+//Type Conversion and Coercion
+const inputYear = '1991';
+console.log(inputYear + 18);

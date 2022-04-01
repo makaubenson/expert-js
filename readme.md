@@ -42,3 +42,7 @@
     }else{
         //code to be executed if condition is not true 
     } `
+
+### Type Conversion and Coercion
+- `Type Conversion` is when we manually convert from one type to another.
+- `Type Coercion` is when javascript automatically converts types for us behind scenes.(Happens implicitily)
