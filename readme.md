@@ -46,3 +46,5 @@
 ### Type Conversion and Coercion
 - `Type Conversion` is when we manually convert from one type to another.
 - `Type Coercion` is when javascript automatically converts types for us behind scenes.(Happens implicitily)
+
+- `console.log(typeof NaN);//Output is Number`  NaN means an invalid number thus its value is somehow still a number.

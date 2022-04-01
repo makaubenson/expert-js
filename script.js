@@ -166,3 +166,5 @@ console.log(birthYear + 18);
 // Converting strings which dont contain a number into a number
 
 console.log(Number('Benson'));//Output = NaN which means not a number
+
+console.log(typeof NaN);//Output is Number
