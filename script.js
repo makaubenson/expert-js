@@ -114,7 +114,7 @@ const bensonNew = `I'm ${firstName}, a ${currentYear- birthYear} years old ${job
 // console.log(`This is a 
 // string with 
 // multiple lines`);
-*/
+
 //If Else Usage
 const age = 15;
 const isOldEnough = age >= 18;//boolean
@@ -134,3 +134,24 @@ if(birthYear <= 2000){
    century = 21 +'st';
 }
 console.log(`This person was born in the ${century} century`);
+*/
+
+// If Else Challenge
+
+//Mark
+let markHeight = 1.69;
+let johnWeight = 78;
+//John
+let johnHeight= 1.95;
+let markWeight = 92;
+
+//Mark BMI = mass / height ** 2
+let markBMI = markWeight / markHeight ** 2;
+//John BMI = mass / height ** 2
+let johnBMI = johnWeight / johnHeight ** 2;
+
+if(markBMI > johnBMI){
+    console.log(`Mark's BMI (${markBMI}) is greater than John's BMI (${johnBMI})`);
+}else{
+    console.log(`John's BMI (${johnBMI}) is greater than Marks's BMI (${markBMI})`);
+}
