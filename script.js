@@ -99,3 +99,8 @@ const birthYear = 1991;
 const currentYear = 2037;
 const benson = "I'm "+ firstName +", a "+ (currentYear- birthYear) +" year old " +job;
 console.log(benson);
+
+
+//Template Literals
+const bensonNew = `I'm ${firstName}, a ${currentYear- birthYear} years old ${job}`;
+console.log(bensonNew);
