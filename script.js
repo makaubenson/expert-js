@@ -168,3 +168,8 @@ console.log(birthYear + 18);
 console.log(Number('Benson'));//Output = NaN which means not a number
 
 console.log(typeof NaN);//Output is Number
+
+//Converting types to string
+const num = 23;
+numString = String(num);
+console.log(num, numString );
