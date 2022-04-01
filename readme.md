@@ -77,3 +77,5 @@ if(money){
 ### Logical Operators
 - `===` is called Strict Operator because it doesnt do type coersion. 
 - `==` - Loose Equality Operators. It does type coersion. 
+### Prompt
+- `const favorite = prompt("What's your favorite number ?")`
