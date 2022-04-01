@@ -193,3 +193,22 @@ console.log('10'-'4'-'3'-2+'5');// '10'-'4'-'3' = 3, '10'-'4'-'3' -2 = 1, '10'-'
 */
 
 // Truthy and Falsy Values
+//Falsy Values
+console.log(Boolean(0));//false
+console.log(Boolean(undefined));//false
+console.log(Boolean("Benson"));//true
+console.log(Boolean({}));//true
+console.log(Boolean(''));//false
+
+const money = 0;
+if(money){
+    console.log(`Don't spent it all`);
+}{
+    console.log(`You should get a job`);
+}
+let height = 0;
+if(height){
+    console.log('Height is defined');
+}else{
+    console.log('Height is undefined');
+}

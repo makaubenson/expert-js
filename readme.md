@@ -65,3 +65,12 @@
 - undefined
 - null
 - NaN
+
+### Example 
+`const money = 0;
+if(money){
+    console.log(`Don't spent it all`);
+}{
+    console.log(`You should get a job`);
+}`
+- The code above outputs "You should get a job". This is because,money is assigned 0 which is a false value. Thus the else block is excecuted. 
