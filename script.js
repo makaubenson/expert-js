@@ -160,3 +160,5 @@ if(markBMI > johnBMI){
 //Type Conversion and Coercion
 const inputYear = '1991';
 console.log(inputYear + 18);
+const birthYear = Number(inputYear);//converting string to integer(number)
+console.log(birthYear + 18);
