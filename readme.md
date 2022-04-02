@@ -81,3 +81,5 @@ if(money){
 - `const favorite = prompt("What's your favorite number ?");`
 ### Is Not Equal To Strict Operator (!==)
 - `if(favorite !== 23) console.log('Why not 23?');`
+### Ternary Operator
+- Has three parts: `condition`, `if block` and `else block `

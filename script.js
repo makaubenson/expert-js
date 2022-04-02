@@ -388,5 +388,24 @@ if(day === 'monday'){
 */
 //CONDITIONAL OPERATOR (TERNARY)
 
-const age = 13;
- age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water 💦');
+const age = 23;
+//  age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water 💦');//statement
+
+ const drink = age >= 18 ? 'wine🍷' : 'water 💦';// expression
+//  console.log(drink);
+//  console.log(`I would like to drink ${drink}`);
+
+ //Coding Challenge 4
+
+ const bill = 800;
+
+     tip1 = (15/100 * bill);
+
+    tip2 = (20/100 * bill);
+
+
+//  console.log(`The bill is ${bill} and the Tip is ${tip}`);
+
+ const Cost = bill >= 50 && bill <= 300 ? `The bill is: ${bill}, the tip is ${tip1} and total cost is ${bill + tip1}  `: `The total cost is: ${bill} and the tip is ${ tip2 } and total cost is ${bill + tip2}`;
+
+ console.log(Cost);
