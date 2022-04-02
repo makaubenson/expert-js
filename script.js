@@ -342,10 +342,10 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
   console.log('No one wins the trophy 😭');
 }
-*/
+
 
 //SWITCH STATEMENT
-const day = 'monday';
+const day = 'tuesday';
 // const day = prompt('What day of the week is today? ');
 
 switch (day) {
@@ -385,3 +385,8 @@ if(day === 'monday'){
 }else{
     console.log('Not a valid day');
 }
+*/
+//CONDITIONAL OPERATOR (TERNARY)
+
+const age = 13;
+ age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water 💦');
