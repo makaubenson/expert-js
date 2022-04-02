@@ -297,7 +297,7 @@ if(dolphinGame1Avg > koalasGame1Avg ){
 }else if(koalasGame1Avg === dolphinGame1Avg  ){
     console.log('It was a draw');
 }
-*/
+
 //BONUS 1 (TEST DATA 1)
 // const scoreDolphins = (97 + 112 + 101) / 3;
 // const scoreKoalas = (109 + 95 + 123) / 3;
@@ -341,4 +341,32 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
   console.log('Both win the trophy!');
 } else {
   console.log('No one wins the trophy 😭');
+}
+*/
+
+//SWITCH STATEMENT
+const day = 'monday';
+// const day = prompt('What day of the week is today? ');
+
+switch (day) {
+    case 'monday':
+        console.log('Plan Course Structure');
+        console.log('Go to coding meetup');
+        break;
+        case 'tuesday':
+        console.log('Prepare theory videos');
+        break;
+        case 'wednesday':
+        case 'thursday':
+        console.log('Write code examples');
+        break;
+        case 'friday':
+        console.log('Record videos');
+        break;
+        case 'saturday':
+        case 'sunday':
+        console.log('Enjoy the weekend');
+        break;
+        default:
+            console.log('Not a valid day');
 }
