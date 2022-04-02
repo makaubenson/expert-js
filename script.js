@@ -268,7 +268,7 @@ if(hasDriversLicense && hasGoodVision && !isTired){
     console.log('someone else should drive');
 }
 // console.log(hasDriversLicense && hasGoodVision && !isTired);
-*/
+
 //CODING CHALLENGE 3
 const dolphinData1 = 96;
 const dolphinData2 = 108;
@@ -288,10 +288,42 @@ const koalasGame1Sum = (koalasData1 + koalasData2 + koalasData3);
 const koalasGame1Avg = (koalasGame1Sum / 3);
 console.log(koalasGame1Avg + ` is koalas' AVG`);
 
+console.log(dolphinGame1Avg ,koalasGame1Avg );
+
 if(dolphinGame1Avg > koalasGame1Avg ){
     console.log('Dolphins won the trophy🏆');
 }else if (koalasGame1Avg > dolphinGame1Avg ){
     console.log('Koalas won the trophy🏆');
 }else if(koalasGame1Avg === dolphinGame1Avg  ){
     console.log('It was a draw');
+}
+*/
+//BONUS 1 (TEST DATA 1)
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 123) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log('Dolphins win the trophy 🏆');
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log('Koalas win the trophy 🏆');
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//   console.log('Both win the trophy!');
+// } else {
+//   console.log('No one wins the trophy 😭');
+// }
+
+//BONUS 1 (TEST DATA 2)
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 123) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log('Dolphins win the trophy 🏆');
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log('Koalas win the trophy 🏆');
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+  console.log('Both win the trophy!');
+} else {
+  console.log('No one wins the trophy 😭');
 }
