@@ -241,7 +241,7 @@ if(favorite == 23){
 
 //Is Not Equal To Strict Operator (!==)
 if(favorite !== 23) console.log('Why not 23?');
-*/
+
 
 //Boolean Logic
 //Uses AND, OR & NOT
@@ -267,5 +267,31 @@ if(hasDriversLicense && hasGoodVision && !isTired){
 }else{
     console.log('someone else should drive');
 }
-
 // console.log(hasDriversLicense && hasGoodVision && !isTired);
+*/
+//CODING CHALLENGE 3
+const dolphinData1 = 96;
+const dolphinData2 = 108;
+const dolphinData3 = 89;
+
+const koalasData1 = 88;
+const koalasData2 = 91;
+const koalasData3 = 110;
+
+//dolphin
+const dolphinGame1Sum = dolphinData1 + dolphinData2 + dolphinData3;
+const dolphinGame1Avg = (dolphinGame1Sum / 3);
+console.log(dolphinGame1Avg + ` is dolphin's AVG`);
+
+//koalas
+const koalasGame1Sum = (koalasData1 + koalasData2 + koalasData3);
+const koalasGame1Avg = (koalasGame1Sum / 3);
+console.log(koalasGame1Avg + ` is koalas' AVG`);
+
+if(dolphinGame1Avg > koalasGame1Avg ){
+    console.log('Dolphins won the trophy🏆');
+}else if (koalasGame1Avg > dolphinGame1Avg ){
+    console.log('Koalas won the trophy🏆');
+}else if(koalasGame1Avg === dolphinGame1Avg  ){
+    console.log('It was a draw');
+}
